@@ -1,0 +1,11 @@
+shim-version: v0.1.9@sha256:410510c9e8e4c7489dd201fede302dee8455075ca28f4f0abbf84bded943b8f1
+cvm-version: 0.4.1
+cpus: 8
+memory: 524288
+gpus: full
+
+shim:
+  listen-port: 443
+  upstream-port: 8080
+  tls-mode: self-signed
+  publish-attestation: false
