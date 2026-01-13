@@ -15,8 +15,8 @@ jobs:
       attestations: write
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: tinfoilsh/pri-build-action@v0.5.5
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8  # v6.0.1
+      - uses: tinfoilsh/pri-build-action@a53bda520fac25778e31aa6b3a6ac686cbca0cda # v0.7.14
         with:
           config-file: ${{ github.workspace }}/tinfoil-config.yml
           github-token: ${{ secrets.GITHUB_TOKEN }}
